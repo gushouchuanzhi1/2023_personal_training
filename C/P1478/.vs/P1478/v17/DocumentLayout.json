@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\code\\vstudio\\luogu\\P1478\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16325C09-163B-4DAA-AB74-FFF8680FA8CA}|P1478.vcxproj|G:\\code\\vstudio\\luogu\\P1478\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{16325C09-163B-4DAA-AB74-FFF8680FA8CA}|P1478.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16325C09-163B-4DAA-AB74-FFF8680FA8CA}|P1478.vcxproj|G:\\desktop\\\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md",
+              "DocumentMoniker": "G:\\desktop\\\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\desktop\\\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md",
+              "ToolTip": "G:\\desktop\\\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md",
+              "RelativeToolTip": "..\\..\\..\\..\\desktop\\\u9676\u9676\u6458\u82F9\u679C\uFF08\u5347\u7EA7\u7248\uFF09.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-02T10:13:03.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "G:\\code\\vstudio\\luogu\\P1478\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "G:\\code\\vstudio\\luogu\\P1478\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AQIAACAAAAAAAAAAAAA0wCoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-02T10:12:59.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
