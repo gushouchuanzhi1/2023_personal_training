@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\code\\vstudio\\luogu\\P1601\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63789306-EB42-4D5B-A8E6-FAC23B39768D}|P1601.vcxproj|G:\\code\\vstudio\\luogu\\P1601\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{63789306-EB42-4D5B-A8E6-FAC23B39768D}|P1601.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "G:\\code\\vstudio\\luogu\\P1601\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "G:\\code\\vstudio\\luogu\\P1601\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AQIAABsAAAAAAAAAAAAswC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-20T14:03:24.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

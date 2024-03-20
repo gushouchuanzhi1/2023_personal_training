@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\code\\vstudio\\luogu\\P1303\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE92E291-6822-449B-9465-68FF143E089B}|P1303.vcxproj|G:\\code\\vstudio\\luogu\\P1303\\P1303.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EE92E291-6822-449B-9465-68FF143E089B}|P1303.vcxproj|solutionrelative:P1303.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE92E291-6822-449B-9465-68FF143E089B}|P1303.vcxproj|G:\\code\\vstudio\\luogu\\P1303\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE92E291-6822-449B-9465-68FF143E089B}|P1303.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P1303.md",
+              "DocumentMoniker": "G:\\code\\vstudio\\luogu\\P1303\\P1303.md",
+              "RelativeDocumentMoniker": "P1303.md",
+              "ToolTip": "G:\\code\\vstudio\\luogu\\P1303\\P1303.md",
+              "RelativeToolTip": "P1303.md",
+              "ViewState": "AQIAABEAAAAAAAAAAAAywCMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-03-20T14:28:24.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.c",
+              "DocumentMoniker": "G:\\code\\vstudio\\luogu\\P1303\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "G:\\code\\vstudio\\luogu\\P1303\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-03-20T14:28:10.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
