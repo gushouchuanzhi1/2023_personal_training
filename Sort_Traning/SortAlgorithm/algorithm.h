@@ -1,5 +1,6 @@
 #pragma once
-
+#include <stdio.h>
+#include <malloc.h>
 void printArray(int array[], int len) {
 	for (int i = 0; i < len; i++) {
 		printf("%d ", array[i]);
@@ -58,4 +59,50 @@ void shellSort(int array[], int len) {//类似于插入排序，先划分为大的序列，分别进
 		}
 	}
 }
+
+int min(int x, int y) {
+	return x > y ? y : x;//三目表达式
+}
+
+void mergeSortRecursive(int array[], int reg[], int start, int end) {//归并算法进行递归   O(nlogn)
+	/*本质上使用了分治算法，将整个数组不断二分，划分到只有单个元素
+	分割到只有一个元素之后，两两归并，将其划分成有序的数列，最后将划分好的归并成一个完整的数列*/
+	if (start >= end) {
+		return;
+	}
+	int len = end - start, mid = (len >> 1) + start;//先求出当前的长度，分为一半
+	int start1 = start, end1 = mid;
+	int start2 = mid + 1, end2 = end;
+	mergeSortRecursive(array, reg, start1, end1);
+	mergeSortRecursive(array, reg, start2, end2);
+	int k = start;
+	while (start1 <= end1 && start2 <= end2) {
+		reg[k++] = array[start1] < array[start2] ? array[start1++] : array[start2++];
+	}
+	while (start1 <= end1) {
+		reg[k++] = array[start1];
+	}
+	while (start2 <= end2) {
+		reg[k++] = array[start2];
+	}
+	for (k = start; k <= end; k++) {
+		array[k] = reg[k];
+	}
+
+}
+
+void mergeSort(int array[], const int len) {//这里的 len 是 array 的长度，在递归的过程中始终不变
+	int* reg = (int*)malloc(len * sizeof(int));
+	mergeSortRecursive(array, reg, 0, len - 1);
+	free(reg);
+}
+
+void Swap(int* x, int* y) {
+	//&是取地址符，可看作对于你的变量进行操作
+	//*是解地址符，可看作对于你的地址进行操作
+	int temp = *y;
+	*y = *x;
+	*x = temp;
+}
+
 
