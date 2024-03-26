@@ -105,4 +105,36 @@ void Swap(int* x, int* y) {
 	*x = temp;
 }
 
+void quickSort(int array[], int start, int last) {
+		int low = start;
+	int high = last;
+	if (low < high)
+	{
+		while (low < high)
+		{
+			while (array[low] <= array[start] && low < last)
+			{
+				low++;//满足小于基准的条件，指针右移
+			}
+			while (array[high] >= array[start] && high > start)
+			{
+				high--;//满足大于基准的条件，指针左移
+			}
+			if (low < high)
+			{
+				swap(array[low], array[high]);//交换两个不满足条件的元素
+			}
+			else
+			{
+				break;
+			}
+		}
+		swap(array[start], array[high]);//插入基准元素
+		qSortArray(array, start, high - 1);
+		qSortArray(array, high + 1, last);
+	}
+}
+
+
+
 

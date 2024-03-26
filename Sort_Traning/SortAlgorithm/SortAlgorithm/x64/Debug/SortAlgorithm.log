@@ -1,0 +1,5 @@
+﻿  Sort.c
+G:\desktop\2023_personal_training\Sort_Traning\SortAlgorithm\algorithm.h(52,36): warning C4552: ”>>“: 未使用表达式结果
+  (编译源文件“Sort.c”)
+  
+  SortAlgorithm.vcxproj -> G:\desktop\2023_personal_training\Sort_Traning\SortAlgorithm\x64\Debug\SortAlgorithm.exe
