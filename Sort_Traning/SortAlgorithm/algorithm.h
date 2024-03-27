@@ -122,14 +122,14 @@ void quickSort(int array[], int start, int last) {
 			}
 			if (low < high)
 			{
-				swap(array[low], array[high]);//交换两个不满足条件的元素
+				Swap(array + low, array + high);//交换两个不满足条件的元素
 			}
 			else
 			{
 				break;
 			}
 		}
-		swap(array[start], array[high]);//插入基准元素
+		Swap(array + start, array + high);//插入基准元素
 		qSortArray(array, start, high - 1);
 		qSortArray(array, high + 1, last);
 	}
