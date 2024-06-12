@@ -13,4 +13,15 @@ bool parseComplexNumber(const char * num, int * real, int * image) {
 这里的strtok函数char *strtok(char s[], const char *delim);传入一个字符串和字符用于分割字符串
 int atoi (const char * str);可以将扫描这个字符串，然后将遇到的数字（包括正负号）转换为整型变量
 
-
+leetcode592:
+①辗转相除法来求最大公约数
+long long gcd(long long a, long long b) {
+    long remainder = a % b;
+    while (remainder != 0) {
+        a = b;
+        b = remainder;
+        remainder = a % b;
+    }
+    return b;
+}
+如何求最小公倍数？a*b/c即为最小公倍数，不过需要先求出最大公约数。
