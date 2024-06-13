@@ -4,3 +4,5 @@
 
 洛谷官方网站：https://www.luogu.com.cn/
 leetcode官方网站：https://leetcode.cn/
+
+在note.md中是本人在刷题中的笔记以及重要点分析
