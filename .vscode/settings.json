@@ -2,6 +2,7 @@
     "files.associations": {
         "regex": "c",
         "xlocale": "c",
-        "xstring": "c"
+        "xstring": "c",
+        "random": "c"
     }
 }
