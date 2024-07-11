@@ -169,3 +169,11 @@ leetcode19:
 这里处理的要点是，head头节点是链表中的元素，所以需要一个dum来作为头节点方便链表操作。
 再就是由于链表原有的head结点可能会被删除，所以这里我们需要创建一个新的头节点newhead并且newhead=dum->next
 这样我们就可以正常返回了
+
+leetcode206:
+这里的反转链表，我们采取迭代的方法。从头开始遍历链表，由于反转过后的新链表最后一个指向null，
+所以我们将原链表的结点一一赋值到新链表即可
+struct ListNode* after = temp->next;
+        temp->next = newHead;
+        newHead = temp;
+        temp = after;
