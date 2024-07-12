@@ -177,3 +177,9 @@ struct ListNode* after = temp->next;
         temp->next = newHead;
         newHead = temp;
         temp = after;
+
+leetcode92:
+这道题要求对对应的区域范围的链表进行相反，
+这个题目在206题的基础上，加上了我们需要定位这个需要取反的子链表范围。
+并且在处理之后，我们需要将子链表的最后一个尾结点指向空指针，
+并且处理好原来的链表前后两个结点，方便子链表取反之后还原到原链表上。
